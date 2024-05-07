@@ -2,7 +2,7 @@ version: '3'
 services:
   adguardhome:
     container_name: adguardhome
-    image: adguard/adguardhome
+    image: adguard/adguardhome:latest
     ports:
       - 53:53/tcp
       - 53:53/udp
