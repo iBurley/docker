@@ -4,9 +4,9 @@ services:
     container_name: nginxpm
     image: jc21/nginx-proxy-manager:latest
     ports:
-      - 80:80
-      - 81:81
-      - 443:443
+      - 50080:80
+      - 50081:81
+      - 50443:443
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
