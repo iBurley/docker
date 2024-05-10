@@ -3,6 +3,10 @@ adguard-home:
 - 50082:80/tcp
 - 53000:3000/tcp
 
+grafana:
+- 59090:9090
+- 53000:3000
+
 guacamole:
 - 58080:8080
 
@@ -25,10 +29,6 @@ nginx-proxy-manager:
 
 node-exporter:
 - 59100:9100
-
-prometheus/grafana:
-- 59090:9090
-- 53000:3000
 
 uptime-kuma:
 - 53001:3001
