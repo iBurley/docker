@@ -5,9 +5,9 @@ services:
     image: nextcloud/all-in-one:latest
     init: true
     ports:
-      - 80:80
-      - 8080:8080
-      - 8443:8443
+      - 50083:80
+      - 58081:8080
+      - 58443:8443
     volumes:
       - nextcloud_aio_mastercontainer:/mnt/docker-aio-config
       - /var/run/docker.sock:/var/run/docker.sock:ro
