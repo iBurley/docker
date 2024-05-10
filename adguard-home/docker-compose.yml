@@ -4,9 +4,9 @@ services:
     container_name: adguardhome
     image: adguard/adguardhome:latest
     ports:
-      - 53:53
-      - 8080:80/tcp
-      - 3100:3000/tcp
+      - 50053:53
+      - 50082:80/tcp
+      - 53000:3000/tcp
     volumes:
       - ./conf:/opt/adguardhome/conf
       - ./work:/opt/adguardhome/work
