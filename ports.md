@@ -1,26 +1,26 @@
-### adguard-home:
+adguard-home:
 - 50053:53
 - 50082:80/tcp
 - 53000:3000/tcp
-### guacamole:
+guacamole:
 - 58080:8080
-### homepage:
+homepage:
 - 53002:3000
-### jellyfin:
+jellyfin:
 - 58096:8096
 - 58920:8920
-### nextcloud-aio:
+nextcloud-aio:
 - 50083:80
 - 58081:8080
 - 58443:8443
-### nginx-proxy-manager:
+nginx-proxy-manager:
 - 50080:80
 - 50081:81
 - 50443:443
-### node-exporter:
+node-exporter:
 - 59100:9100
-### prometheus/grafana:
+prometheus/grafana:
 - 59090:9090
 - 53000:3000
-### uptime-kuma:
+uptime-kuma:
 - 53001:3001
