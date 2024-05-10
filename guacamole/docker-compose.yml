@@ -4,7 +4,7 @@ services:
     container_name: guacamole
     image: flcontainers/guacamole:latest
     ports:
-      - 8180:8080
+      - 58080:8080
     volumes:
       - ./config:/config
     restart: unless-stopped
