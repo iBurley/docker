@@ -5,8 +5,6 @@ adguard-home:
 grafana:
   - 59090:9090
   - 53000:3000
-guacamole:
-  - 58080:8080
 homepage:
   - 53002:3000
 jellyfin:
@@ -14,7 +12,7 @@ jellyfin:
   - 58920:8920
 nextcloud-aio:
   - 50083:80
-  - 58081:8080
+  - 58080:8080
   - 58443:8443
 nginx-proxy-manager:
   - 50080:80
