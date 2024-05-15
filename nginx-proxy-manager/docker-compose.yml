@@ -3,6 +3,8 @@ services:
   nginxpm:
     container_name: nginxpm
     image: jc21/nginx-proxy-manager:latest
+    environment:
+      DISABLE_IPV6: 'true'
     ports:
       - 50080:80
       - 50081:81
