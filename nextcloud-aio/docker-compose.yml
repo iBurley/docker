@@ -1,4 +1,3 @@
-version: '3'
 services:
   nextcloud-aio-mastercontainer:
     container_name: nextcloud-aio-mastercontainer
