@@ -4,7 +4,7 @@ adguard-home:
   - 53000:3000/tcp
 grafana:
   - 59090:9090 #prometheus
-  - 53000:3000 #grafana
+  - 53003:3000 #grafana
 homepage:
   - 53002:3000 #homepage
   - 52375:52375 #docker-proxy
