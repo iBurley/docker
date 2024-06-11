@@ -1,3 +1,5 @@
+activepieces:
+  - 50084:80
 adguard-home:
   - 50053:53
   - 50082:80/tcp
